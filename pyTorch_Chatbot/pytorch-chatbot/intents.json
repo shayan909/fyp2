@@ -1,0 +1,161 @@
+{
+  "intents": [
+       {"tag": "fever",
+         "patterns": ["fever","i am having temperature","feeling hot"],
+         "responses": ["For how long you are having fever", "What is the temperature"],
+         "context_set": ""
+
+},
+       {"tag": "sneeze",
+         "patterns": ["sneezing", "sneezes"],
+         "responses": ["How many days you are having sneezes"],
+         "context_set": ""
+       },
+
+     {"tag": "cough",
+         "patterns": ["coughing"],
+         "responses": ["How many days you're having cough", "is your chest congested", "Do you have mucus", "is it dry"],
+         "context_set": ""
+     },
+     {"tag": "chills",
+         "patterns": ["chill", "shivers", "shivering", "shaking"],
+         "responses": ["how long are you experiencing shivers"],
+         "context_set": ""
+     },
+    {"tag": "headache",
+         "patterns": ["head pain", "pain", "head ache"],
+         "responses": ["How long you are experiencing pain", "is your pain severe"],
+         "context_set": ""
+         },
+    {"tag": "Stuffy_Nose",
+         "patterns": ["stuffy nose","nose blocked"],
+         "responses": ["Stuffy_Nose"],
+         "context_set": ""
+        },
+      {"tag": "Sore_Throat",
+         "patterns": ["sore throat","throat pain"],
+         "responses": ["Sore_Throat"],
+         "context_set": ""
+        },
+      {"tag": "Loss_Of_Smell",
+         "patterns": ["Loss Of Smell","sense of taste lost","sense of smell lost","i cant smell"],
+         "responses": ["Loss_Of_Smell"],
+         "context_set": ""
+        },
+      {"tag": "Shivering",
+         "patterns": ["shivering","feeling shivery"],
+         "responses": ["Shivering"],
+         "context_set": ""
+        },
+      {"tag": "Phlegm",
+         "patterns": ["phlegm","mucus","coughing mucus","chest congestion"],
+         "responses": ["Phlegm"],
+         "context_set": ""
+        },
+      {"tag": "Throat_Irritation",
+         "patterns": ["irritation in throat","my throat hurts","itchy throat"],
+         "responses": ["Throat_Irritation"],
+         "context_set": ""
+        },
+      {"tag": "Allergy_Trigger",
+         "patterns": ["allergy","allergy trigger","allergy ","itchy nose"],
+         "responses": ["Allergy_Trigger"],
+          "context_set": ""
+        },
+      {"tag": "Long_Term_Breathing_Or_Wheezing",
+         "patterns": ["wheezing with breathing problem","breathing with sounds"],
+         "responses": ["Long_Term_Breathing_Or_Wheezing"],
+          "context_set": ""
+        },
+      {"tag": "stiff_neck",
+         "patterns": ["stiff neck","tightness in neck"],
+         "responses": ["stiff_neck"],
+         "context_set": ""
+        },
+      {"tag": "Redness_in_one_or_both_eyes",
+         "patterns": ["eye redness","redness in eye","red eyes"],
+         "responses": ["Redness_in_one_or_both_eyes"],
+         "context_set": ""
+        },
+      {"tag": "Red_Raised_Itchy_Bumps",
+         "patterns": ["red bumps","itchy bumps","Red Raised Itchy lumps"],
+         "responses": ["Red_Raised_Itchy_Bumps"],
+         "context_set": ""
+        },
+      {"tag": "Sensitive_to_Cold",
+         "patterns": ["sensitive to cold","i am sensitive to cold"],
+         "responses": ["Sensitive_to_Cold"],
+         "context_set": ""
+        },
+      {"tag": "Toothache",
+         "patterns": ["toothache","pain in teeth","painful tooth","tooth hurting"],
+         "responses": ["Toothache"],
+         "context_set": ""
+        },
+      {"tag": "Gas",
+         "patterns": ["gassy","farting","stomach gas","sounds in stomach"],
+         "responses": ["Gas"],
+         "context_set": ""
+        },
+      {"tag": "burn_feeling_in_chest",
+         "patterns": ["burning feeling in chest"],
+         "responses": ["burn_feeling_in_chest"],
+         "context_set": ""
+        },
+      {"tag": "bitter_fluid_in_mouth",
+         "patterns": ["bitter taste in mouth","bitter fluid in mouth","bitter"],
+         "responses": ["bitter_fluid_in_mouth"],
+         "context_set": ""
+        },
+      {"tag": "nausea",
+         "patterns": ["feeling nausea","nausea"],
+         "responses": ["nausea"],
+         "context_set": ""
+        },
+        {"tag": "muscle_ache",
+         "patterns": ["pain in muscles","muscle ache","my muscle is paining","muscle pain"],
+         "responses": ["muscle_ache"],
+         "context_set": ""
+        },
+      {"tag": "Smoking_History",
+         "patterns": ["i smoke","smoke daily","smoker"],
+         "responses": ["Smoking_History"],
+         "context_set": ""
+        },
+      {"tag": "Tobacco_History",
+         "patterns": ["tobacco"],
+         "responses": ["Tobacco_History"],
+         "context_set": ""
+        },
+      {"tag": "tingling_in_hands_and_feet",
+         "patterns": ["tingling sensation in hand and feet","tingling"],
+         "responses": ["tingling_in_hands_and_feet"],
+         "context_set": ""
+        },
+      {"tag": "vomiting",
+         "patterns": ["vomiting", "i just vomited", "feeling of vomit", "vomit"],
+         "responses": ["vomiting"],
+         "context_set": ""
+        },
+      {"tag": "chest_pain",
+         "patterns": ["chest pain","chest hurts"],
+         "responses": ["chest_pain"],
+         "context_set": ""
+        },
+        {"tag": "chest_discomfort",
+         "patterns": ["i am having chest discomfort","having discomfort in chest","a discomfort in chest"],
+         "responses": ["chest_discomfort"],
+         "context_set": ""
+        },
+        {"tag": "Pain_in_different_areas_of_back",
+         "patterns": ["Pain in different areas of back","back pain","back ache"],
+         "responses": ["Pain_in_different_areas_of_back"],
+         "context_set": ""
+        },
+       {"tag": "Aches",
+         "patterns": ["aches","pain in body","full body pain","aching body"],
+         "responses": ["Aches"],
+         "context_set": ""
+        }
+  ]
+}
